@@ -1,0 +1,17 @@
+@import '~scss/variables';
+
+form {
+    width: 400px;
+    margin-top: 25px;
+
+    .form-actions {
+        color: $input-text;
+        a {
+            color: #fff;
+        }
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+}

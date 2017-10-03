@@ -1,0 +1,16 @@
+@import '~scss/variables';
+
+.btn {
+    border-radius: 50px;
+
+    &.btn-primary {
+        border: 1px solid #fff;
+        color: #fff;
+        background: $brand-primary;
+    }
+
+    &.btn-full-width {
+        display: block;
+        width: 100%;
+    }
+}

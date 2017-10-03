@@ -1,0 +1,9 @@
+@import '~scss/variables';
+
+input.form-control {
+    height: 50px;
+    border: 1px solid $input-text;
+
+    color: $input-text;
+    // opacity: .5;
+}

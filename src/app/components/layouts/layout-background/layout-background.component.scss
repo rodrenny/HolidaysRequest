@@ -1,0 +1,11 @@
+@import '~scss/variables';
+
+
+.full-background {
+    height: 100%;
+    background: $gradient;
+
+    .d-flex {
+        min-height: 100%;
+    }
+}
